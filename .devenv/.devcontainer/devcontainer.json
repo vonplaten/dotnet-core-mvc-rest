@@ -1,0 +1,24 @@
+
+{
+	"name": "DotNet RestService",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+	"workspaceFolder": "/app/CoreRest",
+	"service": "web",
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+	"extensions": [
+		"ms-vscode.csharp",
+		// "vscjava.vscode-java-pack",
+		// "vscode-spring-initializr"
+	],
+	"shutdownAction": "stopCompose",
+
+	// "postCreateCommand": "/opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0",
+	// "postCreateCommand": "java -version",
+
+}
+

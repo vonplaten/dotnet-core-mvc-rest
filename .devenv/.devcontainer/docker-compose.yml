@@ -1,0 +1,9 @@
+version: '2.3'
+services:
+  web:
+    volumes:
+      - dotnet_restservice_volume:/app
+    command: sleep infinity
+
+volumes:
+  dotnet_restservice_volume:
