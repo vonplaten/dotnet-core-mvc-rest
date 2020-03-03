@@ -8,21 +8,26 @@ namespace CoreRest.Controllers {
     [ApiController]
     public class CustomerController : ControllerBase
     {
-        private readonly CustomerContext _context;
+        // private readonly CustomerContext _context;
 
-        public CustomerController(CustomerContext context){
-            _context = context;
-        }
-
-        [HttpGet]
-        public ActionResult<IEnumerable<Customer>> GetCustomerItems(){
-            return this._context.CustomerItems;
-        }
+        // public CustomerController(CustomerContext context){
+        //     _context = context;
+        // }
 
         // [HttpGet]
-        // public ActionResult<IEnumerable<string>> Get(){
-        //     return new string[] {"this", "is", "a", "string", "arr"};
+        // public ActionResult<IEnumerable<Customer>> GetCustomerItems(){
+        //     return this._context.CustomerItems;
         // }
+
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> Get(){
+            return new string[] {"this", "is", "a", "string", "arr"};
+        }
+
+        public IActionResult Hello()
+        {
+            return View();
+        }    
         
     }
 }

@@ -12089,11 +12089,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/app/CoreRest/CoreRest.csproj",
+      "projectUniqueName": "/app/CoreRest.csproj",
       "projectName": "CoreRest",
-      "projectPath": "/app/CoreRest/CoreRest.csproj",
+      "projectPath": "/app/CoreRest.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/app/CoreRest/obj/",
+      "outputPath": "/app/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"

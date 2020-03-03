@@ -30,8 +30,8 @@ namespace CoreRest
             var user = Configuration["DBUser"] ?? "SA";
             var password = Configuration["DBPassword"] ?? "Password22";
             var database = Configuration["Database"] ?? "Customers";
-            services.AddDbContext<CustomerContext>(options =>
-            options.UseSqlServer($"Server={server},{port};Initial Catalog={database};User ID = {user};Password={password}"));
+            // services.AddDbContext<CustomerContext>(options =>
+            // options.UseSqlServer($"Server={server},{port};Initial Catalog={database};User ID = {user};Password={password}"));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
@@ -40,7 +40,7 @@ namespace CoreRest
         {
             app.UseMvc();
 
-            PrepDB.PrepPopulation(app);
+            // PrepDB.PrepPopulation(app);
         }
     }
 }

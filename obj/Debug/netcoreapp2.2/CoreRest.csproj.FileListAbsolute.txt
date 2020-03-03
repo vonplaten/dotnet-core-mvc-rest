@@ -12,3 +12,17 @@
 /app/CoreRest/obj/Debug/netcoreapp2.2/CoreRest.RazorTargetAssemblyInfo.cache
 /app/CoreRest/obj/Debug/netcoreapp2.2/CoreRest.dll
 /app/CoreRest/obj/Debug/netcoreapp2.2/CoreRest.pdb
+/app/bin/Debug/netcoreapp2.2/CoreRest.deps.json
+/app/bin/Debug/netcoreapp2.2/CoreRest.runtimeconfig.json
+/app/bin/Debug/netcoreapp2.2/CoreRest.runtimeconfig.dev.json
+/app/bin/Debug/netcoreapp2.2/CoreRest.dll
+/app/bin/Debug/netcoreapp2.2/CoreRest.pdb
+/app/obj/Debug/netcoreapp2.2/CoreRest.csprojAssemblyReference.cache
+/app/obj/Debug/netcoreapp2.2/CoreRest.csproj.CoreCompileInputs.cache
+/app/obj/Debug/netcoreapp2.2/CoreRest.RazorAssemblyInfo.cache
+/app/obj/Debug/netcoreapp2.2/CoreRest.RazorAssemblyInfo.cs
+/app/obj/Debug/netcoreapp2.2/CoreRest.AssemblyInfoInputs.cache
+/app/obj/Debug/netcoreapp2.2/CoreRest.AssemblyInfo.cs
+/app/obj/Debug/netcoreapp2.2/CoreRest.RazorTargetAssemblyInfo.cache
+/app/obj/Debug/netcoreapp2.2/CoreRest.dll
+/app/obj/Debug/netcoreapp2.2/CoreRest.pdb
